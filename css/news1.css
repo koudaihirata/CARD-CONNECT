@@ -1,0 +1,126 @@
+.get{
+    display: flex;
+}
+h1{
+    font-size: 14px;
+}
+.text1{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+section{
+    margin: 20px;
+}
+.btn{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn div{
+    text-decoration: none;
+}
+.frex{
+    width: 110px;
+    display: flex; /* flexbox */
+    align-items: center;/*これを追加*/
+    justify-content: space-between;/*これを追加*/
+    color: #4F96EA;
+    margin-bottom: 20px;
+}
+.b{
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #4F96EA;
+    border-left: 2px solid #4F96EA;
+    transform: rotate(-45deg);
+}
+.frex a{
+    color: #4F96EA;
+}
+.frex p{
+    color: #4F96EA;
+}
+.button{
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 30px 5px 5px 30px;
+    color: #fff;
+    background: #4F96EA;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+.button3{
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 30px 5px 5px 30px;
+    color: #fff;
+    background: rgba(79, 150, 234, .3);
+    text-decoration: underline;
+    justify-content: space-between;
+}
+
+.button2{
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px 30px 30px 5px;
+    color: #fff;
+    background: #4F96EA;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+.button4{
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px 30px 30px 5px;
+    color: #fff;
+    background: rgba(79, 150, 234, .3);
+    text-decoration: underline;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+.back{
+    background-color: #F9F9F9;
+}
+.text{
+    background-color: #F9F9F9;
+    border-radius: 24px;
+    padding: 5px;
+}
+.text > p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+.text > h1{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 1rem;
+}
+

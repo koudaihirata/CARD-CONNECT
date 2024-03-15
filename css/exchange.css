@@ -1,0 +1,181 @@
+.connecting{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.connecting > div:first-child{
+    width: 350px;
+    height: 212px;
+    background: url(../img/名刺の横.jpg) no-repeat center center / cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotate(180deg);
+}
+.connecting > div:first-child > div{
+    background: rgba(255, 255, 255, .9);
+    width: 30%;
+    height: 50%;
+    transform: rotate(180deg);
+}
+.pointArea{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.point{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(79, 150, 234, 1);
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* animation: blinking3 2s infinite; */
+    animation: blink 2s infinite;
+}
+/* @keyframes blinking3{
+    0%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    25%{
+        background-color: rgba(79, 150, 234, 1);
+        top: 0;
+        transform: translate(-50%, 0%);
+    }
+    50%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    75%{
+        background-color: rgba(79, 150, 234, 1);
+        top: 100%;
+        transform: translate(-50%, -100%);
+    }
+    100%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+} */
+@keyframes blink{
+    0%{
+        top: 0%;
+    }
+    50%{
+        top: 50%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+.pointArea::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(79, 150, 234, 1);
+    border-radius: 50%;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    /* animation: blinking1 2s infinite; */
+    animation: blinking 2s infinite;
+}
+/* @keyframes blinking1{
+    0%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 0;
+        transform: translate(0, 0%);
+    }
+    25%{
+        background-color: rgba(79, 150, 234, 1);
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    50%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 100%;
+        transform: translate(0%, -100%);
+    }
+    75%{
+        background-color: rgba(79, 150, 234, 1);
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    100%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 0;
+        transform: translate(0, 0%);
+    }
+} */
+.pointArea::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(79, 150, 234, 1);
+    border-radius: 50%;
+    top: 100%;
+    right: 0;
+    transform: translate(0%, -50%);
+    /* animation: blinking2 2s infinite; */
+    animation: blinking 2s infinite;
+}
+/* @keyframes blinking2{
+    0%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 100%;
+        transform: translate(0%, -100%);
+    }
+    25%{
+        background-color: rgba(79, 150, 234, 1);
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    50%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 0;
+        transform: translate(0%, 0%);
+    }
+    75%{
+        background-color: rgba(79, 150, 234, 1);
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    100%{
+        background-color: rgba(79, 150, 234, .5);
+        top: 100%;
+        transform: translate(0%, -100%);
+    }
+} */
+@keyframes blinking{
+    0%{
+        top: 50%;
+    }
+    50%{
+        top: 0;
+    }
+    100%{
+        top: 50%;
+    }
+}
+
+.connecting div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}

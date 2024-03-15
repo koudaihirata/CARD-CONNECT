@@ -1,0 +1,65 @@
+p{
+    font-size: 14px;
+}
+h1{
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.box{
+    align-items: center;
+    margin: 20px;
+    border: solid;
+    padding: 10px;
+}
+input{
+  margin-top: 20px;
+  width: 70%;
+}
+.contents{
+  margin-left: 48px;
+}
+.required::before{
+  content: "必須";
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: #fff;
+  background-color: orange;
+  width: 40%;
+}
+.harf{
+  width: 30%;
+}
+.button {
+  border-radius : 100vh;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 60px;   /* 余白       */
+  background    : #000066;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+  align-items: center;
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000066;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+.oll{
+  background-color: #F9F9F9;
+  border-radius: 24px;
+  padding: 5px;
+
+}
+.toptext{
+  display: flex;
+}

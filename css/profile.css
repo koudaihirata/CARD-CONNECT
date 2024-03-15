@@ -1,0 +1,136 @@
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: #F1F1F1 1px solid;
+}
+.topImg img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 32px;
+}
+.top h2{
+    font-size: 24px;
+}
+.topStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 4px;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4F96EA;
+}
+.topStatus img{
+    width: 20px;
+    height: 20px;
+}
+.SNS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-top: 20px;
+}
+.SNS img{
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 2px 8px -5px #777777;
+    border-radius: 5px;
+}
+.edit{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #4F96EA;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit:hover{
+    background-color: #3A7ABF;
+}
+.edit a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+.topChoice{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.topChoice::before{
+    content: "";
+    position: absolute;;
+    width: 130px;
+    height: 1px;
+    background: #333;
+    bottom: -12px;
+    left: 7%;
+}
+.topChoice2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.topChoice2::before{
+    content: "";
+    position: absolute;;
+    width: 130px;
+    height: 1px;
+    background: #333;
+    bottom: -12px;
+    right: 7%;
+}
+
+
+
+.ctsBox{
+    background: #fff;
+    margin-bottom: 120px;
+}
+.cts{
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0 auto 12px;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.cts:first-child{
+    margin-top: 32px;
+}
+.cts p{
+    margin-left: 1rem;
+}
+.cts p:last-child{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+.profileMain{
+    margin-bottom: 120px;
+}

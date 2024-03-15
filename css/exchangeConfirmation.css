@@ -1,0 +1,53 @@
+.business2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.business2 div:first-child{
+    width: 350px;
+    height: 212px;
+}
+.business2 div:first-child img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#Confirm p:first-child{
+    text-align: center;
+    font-size: 16px;
+}
+.ConfirmList{
+    width: 216px;
+    height: 46px;
+}
+.ConfirmList a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #4F96EA;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+}
+.ConfirmList a:hover{
+    background-color: #417DC3;
+}
+
+.business div:first-child .partner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

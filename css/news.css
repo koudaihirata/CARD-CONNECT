@@ -1,0 +1,61 @@
+.MTitle{
+    width: 90%;
+    margin: 40px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.MTitle h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.NList{
+    width: 90%;
+    height: 65vh;
+    margin: 20px auto 0;
+    background: #F9F9F9;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow-y: auto;
+    scrollbar-color: #4F96EA #F9F9F9;
+}
+.NList a{
+    text-decoration: none;
+}
+.NList a:last-child{
+    margin-bottom: 5px;
+}
+.frex{
+    width: 90%;
+    height: 60px;
+    margin: 10px auto 0;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+}
+ruby{
+    font-size: 12px;
+    color: rgba(19, 22, 33, .5);
+    margin-left: 15px;
+}
+.main{
+    font-size: 14px;
+    color: rgba(19, 22, 33, 1);
+    margin-left: 15px;
+}
+.frex::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #4F96EA;
+    border-right: 2px solid #4F96EA;
+    transform: rotate(45deg) translateY(-50%);
+}

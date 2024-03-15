@@ -1,0 +1,210 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
+}
+main{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #4F96EA;
+}
+header ul{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+}
+header ul li:last-child{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    list-style: none;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 変わった場所 */
+header ul li:first-child img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.businessCard{
+    width: 100%;
+    height: 240px;
+}
+.businessCard > div{
+    width: 85%;
+    height: 200px;
+    position: relative;
+    margin: 50px auto 0;
+}
+.businessCard > div h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.exchange{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.exchange button{
+    width: 290px;
+    height: 48px;
+    border-radius: 50px;
+    background: #4F96EA;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.exchange button::after{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(../img/pencil.svg) no-repeat;
+    top: 54%;
+    right: 24%;
+    transform: translateY(-50%);
+}
+
+
+
+.news{
+    width: 90%;
+    margin: 32px auto 0;
+}
+.news h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.newsTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.newsTitle > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.newsTitle h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.newsTitle > div:first-child > p{
+    font-size: 12px;
+    color: #4F96EA;
+}
+.newsTitle a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.newsContent{
+    width: 100%;
+    height: 160px;
+    margin-top: 20px;
+    background: #F9F9F9;
+    border-radius: 10px;
+}
+.newsContent > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.newsContent > div > div{
+    width: 95%;
+    height: 60px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.newsContent p{
+    font-size: 12px;
+}
+.newsContent > div > div > p:last-child{
+    font-weight: bold;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #4F96EA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer > div a{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer > div a{
+    text-decoration: none;
+}
+footer > div p{
+    font-size: 12px;
+    color: #fff;
+}
+footer > div:nth-child(even){
+    width: 97px;
+    height: 77px;
+    background: #fff;
+    border: #4F96EA 3px solid;
+    border-radius: 20px;
+    transform: translateY(-20%);
+}
+footer > div:nth-child(even) p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
