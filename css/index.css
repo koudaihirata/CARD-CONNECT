@@ -82,7 +82,7 @@ header ul li a{
     align-items: flex-end;
     position: relative;
 }
-.exchange button{
+.exchange p{
     width: 290px;
     height: 48px;
     border-radius: 50px;
@@ -90,8 +90,14 @@ header ul li a{
     color: #fff;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
+    line-height: 48px;
 }
-.exchange button::after{
+.exchange a{
+    text-decoration: none;
+    color: #fff;
+}
+.exchange p::after{
     content: "";
     position: absolute;
     width: 32px;
