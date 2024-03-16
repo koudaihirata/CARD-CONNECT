@@ -16,31 +16,49 @@
             <li><p><a href="news.html"><img src="img/bell.svg" alt="bell"></a></p></li>
         </ul>
     </header>
-    <div class="toptext">
-        <img src="img/blue.svg">
-        <h1>編集モード</h1>
-    </div>
-    <div class="oll">
-        <div class="flex required">
-            <input type="text" required="required" placeholder="性" class="harf">
-            <input type="text" required="required" placeholder="名" class="harf"> 
-        </div>
-    <div class="frex required">
-        <input type="text" placeholder="学校名" required> 
-    </div>    
-    <div class="frex required">
-        <input type="text" placeholder="学部・学科">
-    </div>
-        <input type="text" placeholder="専攻" class="contents"> <br>
-        <input type="text" placeholder="専攻" class="contents"><br>
-    <div class="frex required">
-        <input type="text" placeholder="卒業予定" required> <br>
-    </div>    
-        <input type="email" placeholder="メール" required="required" class="contents"><br>
-        <input type="tel" placeholder="電話番号" class="contents">
-    </div>
-    <input type="submit" value ="変更を保存" class="button">
-    </div>
+
+    <main>
+        <section class="Information">
+            <div class="InformationTitle">
+                <img src="img/blue.svg" alt="青いぺん">
+                <h2>編集モード</h2>
+            </div>
+            <div class="InformationInput">
+                <div class="InputName">
+                    <p class="Required">必須</p>
+                    <input type="text" placeholder="姓">
+                    <input type="text" placeholder="名">
+                </div>
+                <div class="InputSchool">
+                    <div>
+                        <p class="Required">必須</p>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="学校名">
+                        <input type="text" placeholder="学部・学科">
+                        <input type="text" placeholder="専攻">
+                    </div>
+                </div>
+                <div class="InputGraduate">
+                    <div>
+                        <p class="Required">必須</p>
+                    </div>
+                    <input type="text" placeholder="卒業予定">
+                </div>
+                <div class="InputSchool">
+                    <div>
+                        <p class="Required">必須</p>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="メールアドレス">
+                        <input type="text" placeholder="電話番号">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="keepBtn"><a href="#">変更を保存</a></p>
+    </main>
+
     <footer>
         <div>
             <a href="index.html">
